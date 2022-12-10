@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		348A319A2945135600A519FF /* SwiftUI_Drag_AnimationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A31992945135600A519FF /* SwiftUI_Drag_AnimationApp.swift */; };
-		348A319C2945135600A519FF /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A319B2945135600A519FF /* ContentView.swift */; };
+		348A319C2945135600A519FF /* CircleDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A319B2945135600A519FF /* CircleDragView.swift */; };
 		348A319E2945135700A519FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348A319D2945135700A519FF /* Assets.xcassets */; };
 		348A31A12945135700A519FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348A31A02945135700A519FF /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 /* Begin PBXFileReference section */
 		348A31962945135600A519FF /* SwiftUI Drag Animation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Drag Animation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		348A31992945135600A519FF /* SwiftUI_Drag_AnimationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_Drag_AnimationApp.swift; sourceTree = "<group>"; };
-		348A319B2945135600A519FF /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		348A319B2945135600A519FF /* CircleDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDragView.swift; sourceTree = "<group>"; };
 		348A319D2945135700A519FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		348A31A02945135700A519FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				348A31992945135600A519FF /* SwiftUI_Drag_AnimationApp.swift */,
-				348A319B2945135600A519FF /* ContentView.swift */,
+				348A319B2945135600A519FF /* CircleDragView.swift */,
 				348A319D2945135700A519FF /* Assets.xcassets */,
 				348A319F2945135700A519FF /* Preview Content */,
 			);
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				348A319C2945135600A519FF /* ContentView.swift in Sources */,
+				348A319C2945135600A519FF /* CircleDragView.swift in Sources */,
 				348A319A2945135600A519FF /* SwiftUI_Drag_AnimationApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -270,6 +270,7 @@
 				DEVELOPMENT_TEAM = CMJ553K76W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Drag;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +300,7 @@
 				DEVELOPMENT_TEAM = CMJ553K76W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Drag;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
