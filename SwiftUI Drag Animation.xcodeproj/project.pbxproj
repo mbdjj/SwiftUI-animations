@@ -11,6 +11,8 @@
 		348A319C2945135600A519FF /* CircleDragView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A319B2945135600A519FF /* CircleDragView.swift */; };
 		348A319E2945135700A519FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348A319D2945135700A519FF /* Assets.xcassets */; };
 		348A31A12945135700A519FF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 348A31A02945135700A519FF /* Preview Assets.xcassets */; };
+		348A31A829451DFA00A519FF /* CirclesLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A31A729451DFA00A519FF /* CirclesLoadingView.swift */; };
+		348A31AA2945227600A519FF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 348A31A92945227600A519FF /* PageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		348A319B2945135600A519FF /* CircleDragView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleDragView.swift; sourceTree = "<group>"; };
 		348A319D2945135700A519FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		348A31A02945135700A519FF /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		348A31A729451DFA00A519FF /* CirclesLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CirclesLoadingView.swift; sourceTree = "<group>"; };
+		348A31A92945227600A519FF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				348A31992945135600A519FF /* SwiftUI_Drag_AnimationApp.swift */,
+				348A31A92945227600A519FF /* PageView.swift */,
 				348A319B2945135600A519FF /* CircleDragView.swift */,
+				348A31A729451DFA00A519FF /* CirclesLoadingView.swift */,
 				348A319D2945135700A519FF /* Assets.xcassets */,
 				348A319F2945135700A519FF /* Preview Content */,
 			);
@@ -137,6 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348A31A829451DFA00A519FF /* CirclesLoadingView.swift in Sources */,
+				348A31AA2945227600A519FF /* PageView.swift in Sources */,
 				348A319C2945135600A519FF /* CircleDragView.swift in Sources */,
 				348A319A2945135600A519FF /* SwiftUI_Drag_AnimationApp.swift in Sources */,
 			);
