@@ -17,6 +17,8 @@ struct PageView: View {
                 .tag(0)
             CirclesLoadingView()
                 .tag(1)
+            AnimatedButtonView()
+                .tag(2)
         }
         .tabViewStyle(.page)
         .indexViewStyle(.page(backgroundDisplayMode: .always))
