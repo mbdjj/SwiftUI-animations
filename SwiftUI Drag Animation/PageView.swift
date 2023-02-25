@@ -19,10 +19,12 @@ struct PageView: View {
                 .tag(1)
             AnimatedButtonView()
                 .tag(2)
+            RotatingPillsView()
+                .tag(3)
         }
         .tabViewStyle(.page)
         .indexViewStyle(.page(backgroundDisplayMode: .always))
-        //.ignoresSafeArea()
+        .ignoresSafeArea(edges: .top)
     }
 }
 
