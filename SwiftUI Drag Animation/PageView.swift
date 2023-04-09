@@ -21,6 +21,8 @@ struct PageView: View {
                 .tag(2)
             RotatingPillsView()
                 .tag(3)
+            TwitterLikeButton()
+                .tag(4)
         }
         .tabViewStyle(.page)
         .indexViewStyle(.page(backgroundDisplayMode: .always))
