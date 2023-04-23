@@ -15,7 +15,7 @@ struct TwitterLikeButton: View {
     @State var animateCircle2 = false
     @State var animateHeart = false
     
-    @State var animateHeartBack = false
+    @State var animateHeartBack = true
     
     var body: some View {
         ZStack {
