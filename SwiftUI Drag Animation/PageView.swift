@@ -12,21 +12,21 @@ struct PageView: View {
     @State var selection = 0
     
     var body: some View {
-        TabView(selection: $selection) {
-            CircleDragView()
-                .tag(0)
-            CirclesLoadingView()
-                .tag(1)
-            AnimatedButtonView()
-                .tag(2)
-            RotatingPillsView()
-                .tag(3)
-            TwitterLikeButton()
-                .tag(4)
+        
+        NavigationStack {
+            List {
+                NavigationLink("Circle drag", destination: CircleDragView())
+                
+                NavigationLink("Circles loading", destination: CirclesLoadingView())
+                
+                NavigationLink("Continue button", destination: AnimatedButtonView())
+                
+                NavigationLink("Rotating pills", destination: RotatingPillsView())
+                
+                NavigationLink("Twitter like button", destination: TwitterLikeButton())
+            }
+            .navigationTitle("SwiftUI Animation")
         }
-        .tabViewStyle(.page)
-        .indexViewStyle(.page(backgroundDisplayMode: .always))
-        .ignoresSafeArea(edges: .top)
     }
 }
 
