@@ -1,5 +1,5 @@
 //
-//  PageView.swift
+//  NavigationList.swift
 //  SwiftUI Drag Animation
 //
 //  Created by Marcin Bartminski on 10/12/2022.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct PageView: View {
+struct NavigationList: View {
     
     @State var selection = 0
     
@@ -32,6 +32,6 @@ struct PageView: View {
 
 struct PageView_Previews: PreviewProvider {
     static var previews: some View {
-        PageView()
+        NavigationList()
     }
 }
